@@ -1,0 +1,174 @@
+-   title: Counterspells
+    cards:
+        -   name: Essence Scatter
+            cost:
+                - 1
+                - u
+            type: instant
+            text: Counter <b>creature spell</b>.
+            link: https://scryfall.com/card/m19/54/essence-scatter
+        -   name: Negate
+            cost:
+                - 1
+                - u
+            type: instant
+            text: Counter <b>noncreature spell</b>.
+            link: https://scryfall.com/card/m20/69/negate
+        -   name: Quench
+            cost:
+                - 1
+                - u
+            type: instant
+            text: Counter spell unless <span class="mana colorless">2</span>.
+            link: https://scryfall.com/card/rna/48/quench
+        -   name: Tale's End
+            cost:
+                - 1
+                - u
+            type: instant
+            text: Counter target <b>activated ability</b>, <b>triggered ability</b>, or <b>legendary spell</b>.
+            link: https://scryfall.com/card/m20/77/tales-end
+        -   name: Essence Capture
+            cost:
+                - u
+                - u
+            type: instant
+            text: Counter <b>creature spell</b>.
+            link: https://scryfall.com/card/rna/37/essence-capture
+        -   name: Mystical Dispute
+            cost:
+                - 2
+                - u
+            type: instant
+            text: Counter spell unless <span class="mana colorless">3</span>. Costs <span class="mana colorless">2</span> less against blue.
+            link: https://scryfall.com/card/eld/58/mystical-dispute
+        -   name: Neutralize
+            cost:
+                - 1
+                - u
+                - u
+            type: instant
+            text: Counter spell.
+            link: https://scryfall.com/card/iko/59/neutralize
+        -   name: Thassa's Intervention
+            cost:
+                - X
+                - u
+                - u
+            type: instant
+            text: Counter spell unless twice <span class="mana colorless">X</span>.
+            link: https://scryfall.com/card/thb/72/thassas-intervention
+        -   name: Dovin's Veto
+            cost:
+                - w
+                - u
+            type: instant
+            text: Counter <b>noncreature spell</b>. Can't be countered.
+            link: https://scryfall.com/card/war/193/dovins-veto
+        -   name: Absorb
+            cost:
+                - w
+                - u
+                - u
+            type: instant
+            text: Counter spell.
+            link: https://scryfall.com/card/rna/151/absorb
+        -   name: Ionize
+            cost:
+                - 1
+                - u
+                - r
+            type: instant
+            text: Counter spell.
+            link: https://scryfall.com/card/grn/179/ionize
+
+-   title: Swipers
+    cards:
+        -   name: Shatter The Shy
+            cost:
+                - 2
+                - w
+                - w
+            type: sorcery
+            text: Destroy all <b>creatures</b>.
+            link: https://scryfall.com/card/thb/37/shatter-the-sky
+        -   name: Planar Cleansing
+            cost:
+                - 3
+                - w
+                - w
+                - w
+            type: sorcery
+            text: Destroy all <b>nonland permanents</b>.
+            link: https://scryfall.com/card/m20/33/planar-cleansing
+        -   name: Extinction Event
+            cost:
+                - 3
+                - b
+            type: sorcery
+            text: <b>Exile</b> each <b>creature</b> with converted mana cost <b>odd or even</b>.
+            link: https://scryfall.com/card/iko/88/extinction-event
+        -   name: Storm's Wrath
+            cost:
+                - 2
+                - r
+                - r
+            type: sorcery
+            text: Deals <b>4 damage</b> to each <b>creature</b> and each <b>planeswalker</b>.
+            link: https://scryfall.com/card/thb/157/storms-wrath
+        -   name: Ritual of Soot
+            cost:
+                - 2
+                - b
+                - b
+            type: sorcery
+            text: Destroy all <b>creatures</b> with converted mana cost <b>3 or less</b>.
+            link: https://scryfall.com/card/grn/84/ritual-of-soot
+        -   name: Time Wipe
+            cost:
+                - 2
+                - w
+                - w
+                - u
+            type: sorcery
+            text: Destroy all <b>creatures</b>.
+            link: https://scryfall.com/card/war/223/time-wipe
+        -   name: Kaya's Wrath
+            cost:
+                - w
+                - w
+                - b
+                - b
+            type: sorcery
+            text: Destroy all <b>creatures</b>.
+            link: https://scryfall.com/card/rna/187/kayas-wrath
+        -   name: Deafening CLarion
+            cost:
+                - 1
+                - w
+                - r
+            type: sorcery
+            text: Deals <b>3 damage</b> to each <b>creature</b>.
+            link: https://scryfall.com/card/grn/165/deafening-clarion
+        -   name: Casualties of War
+            cost:
+                - 2
+                - b
+                - b
+                - g
+                - g
+            type: sorcery
+            text: Destroy <b>artifact</b>,  <b>creature</b>,  <b>enchantment</b>,  <b>land</b>,  <b>planeswalker</b>.
+            link: https://scryfall.com/card/war/187/casualties-of-war
+        -   name: Ruinous Ultimatum
+            cost:
+                - r
+                - r
+                - w
+                - w
+                - w
+                - b
+                - b
+            type: sorcery
+            text: Destroy all <b>nonland permanents</b>.
+            link: https://scryfall.com/card/iko/204/ruinous-ultimatum

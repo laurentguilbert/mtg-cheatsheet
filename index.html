@@ -1,0 +1,36 @@
+---
+# front matter
+---
+<html>
+  <head>
+    <title>MTG Cheatsheet (Standard - Ikoria)</title>
+    <link rel="shortcut icon" href="{{ "/assets/images/favicon.png"|relative_url }}">
+    <link href="https://fonts.googleapis.com/css?family=Manrope&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ "/assets/css/styles.css"|relative_url }}">
+  </head>
+  <body>
+    {% for section in site.data.sections %}
+      <div class="section">
+        <h2 class="section-title">{{ section.title }}</h2>
+        <div class="section-cards">
+          {% for card in section.cards %}
+            <a href="{{card.link}}" target="_blank" class="card">
+              <div class="card-cost">
+                {% for mana in card.cost %}
+                  {% if "gbuwr" contains mana %}
+                    <img class="mana symbol" src="/assets/images/mana_{{ mana }}.png">
+                  {% else %}
+                    <span class="mana colorless">{{ mana }}</span>
+                  {% endif %}
+                {% endfor %}
+              </div>
+              <div class="card-name">{{ card.name }}</div>
+              <div class="card-type">{{ card.type|capitalize }}</div>
+              <div class="card-text">{{ card.text }}</div>
+            </a>
+          {% endfor %}
+        </div>
+      </div>
+    {% endfor %}
+  </body>
+</html>

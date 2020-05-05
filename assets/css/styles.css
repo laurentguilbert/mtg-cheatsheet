@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #14151f;
+    font-family: "Manrope", sans-serif;
+}
+
+h2 {
+    color: #5e6c84;
+    padding: 10px 20px;
+}
+
+.section {}
+
+.section + .section {
+    margin-top: 20px;
+}
+
+.section-title {}
+
+.section-cards {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-top: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 10px;
+    width: 250px;
+    border-radius: 10px;
+    border-bottom: 3px solid #dfdfdf;
+    background-color: #f0f0f0;
+}
+
+.card-body {}
+
+.card-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: .8em;
+}
+
+.card-cost {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.card-type {
+    color: #5e6c84;
+    margin-bottom: 5px;
+    font-size: .8em;
+}
+
+.card-text {}
+
+.card-text .mana.colorless {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.mana {}
+
+.mana + .mana {
+    margin-left: 3px;
+}
+
+.mana.colorless {
+    display: inline-block;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    background-color: #c9c4bf;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.mana.symbol {
+    width: 25px;
+    height: 25px;
+    display: block;
+}
