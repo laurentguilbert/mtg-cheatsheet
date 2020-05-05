@@ -15,7 +15,7 @@
         <h2 class="section-title">{{ section.title }}</h2>
         <div class="section-cards">
           {% for card in section.cards %}
-            <a href="{{ card.link }}" target="_blank" class="card">
+            <a class="card">
               <img class="card-image" src="{{ card.image }}">
               <div class="card-cost">
                 {% for mana in card.cost %}
