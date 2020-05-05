@@ -3,18 +3,20 @@
 ---
 <html>
   <head>
-    <title>MTG Cheatsheet (Standard - Ikoria)</title>
+    <title>MTG Cheatsheet</title>
     <link rel="shortcut icon" href="{{ "/assets/images/favicon.png"|relative_url }}">
     <link href="https://fonts.googleapis.com/css?family=Manrope&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ "/assets/css/styles.css"|relative_url }}">
   </head>
   <body>
+    <h1>MTG Cheatsheet (Standard - Ikoria)</h1>
     {% for section in site.data.sections %}
       <div class="section">
         <h2 class="section-title">{{ section.title }}</h2>
         <div class="section-cards">
           {% for card in section.cards %}
-            <a href="{{card.link}}" target="_blank" class="card">
+            <a href="{{ card.link }}" target="_blank" class="card">
+              <img class="card-image" src="{{ card.image }}">
               <div class="card-cost">
                 {% for mana in card.cost %}
                   {% if "gbuwr" contains mana %}

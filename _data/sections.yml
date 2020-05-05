@@ -7,6 +7,7 @@
             type: instant
             text: Counter <b>creature spell</b>.
             link: https://scryfall.com/card/m19/54/essence-scatter
+            image: https://img.scryfall.com/cards/large/front/9/7/975f61eb-a121-4f43-93a4-c6f20c6aee84.jpg
         -   name: Negate
             cost:
                 - 1
@@ -14,6 +15,7 @@
             type: instant
             text: Counter <b>noncreature spell</b>.
             link: https://scryfall.com/card/m20/69/negate
+            image: https://img.scryfall.com/cards/large/front/3/3/33b83158-78b4-425e-8379-be3ef038295c.jpg
         -   name: Quench
             cost:
                 - 1
@@ -21,6 +23,7 @@
             type: instant
             text: Counter spell unless <span class="mana colorless">2</span>.
             link: https://scryfall.com/card/rna/48/quench
+            image: https://img.scryfall.com/cards/large/front/e/e/ee0ba01b-de96-4f8f-9405-ff3ad288afac.jpg
         -   name: Tale's End
             cost:
                 - 1
@@ -28,6 +31,7 @@
             type: instant
             text: Counter target <b>activated ability</b>, <b>triggered ability</b>, or <b>legendary spell</b>.
             link: https://scryfall.com/card/m20/77/tales-end
+            image: https://img.scryfall.com/cards/large/front/1/4/1421115b-9a98-4ab2-bcb2-7d8899ce12db.jpg
         -   name: Essence Capture
             cost:
                 - u
@@ -35,6 +39,7 @@
             type: instant
             text: Counter <b>creature spell</b>.
             link: https://scryfall.com/card/rna/37/essence-capture
+            image: https://img.scryfall.com/cards/large/front/c/e/ce137910-0f0e-4f94-9b95-6e0eeeba164e.jpg
         -   name: Mystical Dispute
             cost:
                 - 2
@@ -42,6 +47,7 @@
             type: instant
             text: Counter spell unless <span class="mana colorless">3</span>. Costs <span class="mana colorless">2</span> less against blue.
             link: https://scryfall.com/card/eld/58/mystical-dispute
+            image: https://img.scryfall.com/cards/large/front/f/b/fbe04cb8-a8b9-4241-baae-b398a2509a3a.jpg
         -   name: Neutralize
             cost:
                 - 1
@@ -50,6 +56,7 @@
             type: instant
             text: Counter spell.
             link: https://scryfall.com/card/iko/59/neutralize
+            image: https://img.scryfall.com/cards/large/front/0/4/0430da3c-9460-4b62-ae28-2e7e6f4d06a4.jpg
         -   name: Thassa's Intervention
             cost:
                 - X
@@ -58,6 +65,7 @@
             type: instant
             text: Counter spell unless twice <span class="mana colorless">X</span>.
             link: https://scryfall.com/card/thb/72/thassas-intervention
+            image: https://img.scryfall.com/cards/large/front/2/c/2c1241d0-20d4-4eab-970d-74e476f023b4.jpg
         -   name: Dovin's Veto
             cost:
                 - w
@@ -65,6 +73,7 @@
             type: instant
             text: Counter <b>noncreature spell</b>. Can't be countered.
             link: https://scryfall.com/card/war/193/dovins-veto
+            image: https://img.scryfall.com/cards/large/front/5/d/5d6b5054-2224-4f68-9d82-3ed17c5dacc4.jpg
         -   name: Absorb
             cost:
                 - w
@@ -73,6 +82,7 @@
             type: instant
             text: Counter spell.
             link: https://scryfall.com/card/rna/151/absorb
+            image: https://img.scryfall.com/cards/large/front/1/e/1e8a43c1-42d1-45ef-8a63-4b87775a6e88.jpg
         -   name: Ionize
             cost:
                 - 1
@@ -81,6 +91,7 @@
             type: instant
             text: Counter spell.
             link: https://scryfall.com/card/grn/179/ionize
+            image: https://img.scryfall.com/cards/large/front/f/1/f161f7d2-eaa1-4931-93f9-befa8b5df821.jpg
 
 -   title: Swipers
     cards:
@@ -92,6 +103,7 @@
             type: sorcery
             text: Destroy all <b>creatures</b>.
             link: https://scryfall.com/card/thb/37/shatter-the-sky
+            image: https://img.scryfall.com/cards/large/front/b/7/b706977b-db8e-4810-882d-ed3745404489.jpg
         -   name: Planar Cleansing
             cost:
                 - 3
@@ -101,6 +113,7 @@
             type: sorcery
             text: Destroy all <b>nonland permanents</b>.
             link: https://scryfall.com/card/m20/33/planar-cleansing
+            image: https://img.scryfall.com/cards/large/front/5/e/5eddac86-947e-48c1-9f02-4634a7918c98.jpg
         -   name: Extinction Event
             cost:
                 - 3
@@ -108,6 +121,7 @@
             type: sorcery
             text: <b>Exile</b> each <b>creature</b> with converted mana cost <b>odd or even</b>.
             link: https://scryfall.com/card/iko/88/extinction-event
+            image: https://img.scryfall.com/cards/large/front/8/7/8725a869-462b-4381-880a-b4bcc63a655b.jpg
         -   name: Storm's Wrath
             cost:
                 - 2
@@ -116,6 +130,7 @@
             type: sorcery
             text: Deals <b>4 damage</b> to each <b>creature</b> and each <b>planeswalker</b>.
             link: https://scryfall.com/card/thb/157/storms-wrath
+            image: https://img.scryfall.com/cards/large/front/4/b/4bc9ecd2-7664-471b-90f2-2d0dd1acec80.jpg
         -   name: Ritual of Soot
             cost:
                 - 2
@@ -124,6 +139,7 @@
             type: sorcery
             text: Destroy all <b>creatures</b> with converted mana cost <b>3 or less</b>.
             link: https://scryfall.com/card/grn/84/ritual-of-soot
+            image: https://img.scryfall.com/cards/large/front/2/6/269af993-4894-4bf1-b55a-af4d736cb3cc.jpg
         -   name: Time Wipe
             cost:
                 - 2
@@ -133,6 +149,7 @@
             type: sorcery
             text: Destroy all <b>creatures</b>.
             link: https://scryfall.com/card/war/223/time-wipe
+            image: https://img.scryfall.com/cards/large/front/6/2/62c59475-6f15-48d2-b105-f49901f20d44.jpg
         -   name: Kaya's Wrath
             cost:
                 - w
@@ -142,6 +159,7 @@
             type: sorcery
             text: Destroy all <b>creatures</b>.
             link: https://scryfall.com/card/rna/187/kayas-wrath
+            image: https://img.scryfall.com/cards/large/front/5/e/5ed140c1-752b-4539-88f2-1fa354049b17.jpg
         -   name: Deafening CLarion
             cost:
                 - 1
@@ -150,6 +168,7 @@
             type: sorcery
             text: Deals <b>3 damage</b> to each <b>creature</b>.
             link: https://scryfall.com/card/grn/165/deafening-clarion
+            image: https://img.scryfall.com/cards/large/front/1/e/1e115a81-001d-4e17-98af-6a63f2b0967f.jpg
         -   name: Casualties of War
             cost:
                 - 2
@@ -160,6 +179,7 @@
             type: sorcery
             text: Destroy <b>artifact</b>,  <b>creature</b>,  <b>enchantment</b>,  <b>land</b>,  <b>planeswalker</b>.
             link: https://scryfall.com/card/war/187/casualties-of-war
+            image: https://img.scryfall.com/cards/large/front/0/8/08fc5e50-c6f7-41ec-815a-5667eefded78.jpg
         -   name: Ruinous Ultimatum
             cost:
                 - r
@@ -172,3 +192,4 @@
             type: sorcery
             text: Destroy all <b>nonland permanents</b>.
             link: https://scryfall.com/card/iko/204/ruinous-ultimatum
+            image: https://img.scryfall.com/cards/large/front/5/0/50c1d6ca-7789-46b5-bc89-85cc3915cb85.jpg

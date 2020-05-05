@@ -6,6 +6,11 @@
 body {
     color: #14151f;
     font-family: "Manrope", sans-serif;
+    padding-bottom: 250px;
+}
+
+h1 {
+    text-align: center;
 }
 
 h2 {
@@ -38,9 +43,22 @@ h2 {
     border-radius: 10px;
     border-bottom: 3px solid #dfdfdf;
     background-color: #f0f0f0;
+    position: relative;
 }
 
-.card-body {}
+.card:hover .card-image {
+    display: block;
+}
+
+.card-image {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    border-radius: 13px;
+    display: none;
+}
 
 .card-name {
     font-weight: bold;
