@@ -18,7 +18,8 @@
               <div class="card-cost">
                 {% for mana in card.cost %}
                   {% if "gbuwr" contains mana %}
-                    <img class="mana symbol" src="/assets/images/mana_{{ mana }}.png">
+                    {% capture mana_img_src %}/assets/images/mana_{{ mana }}.png{% endcapture %}
+                    <img class="mana symbol" src="{{ mana_img_src|relative_url }}">
                   {% else %}
                     <span class="mana colorless">{{ mana }}</span>
                   {% endif %}
